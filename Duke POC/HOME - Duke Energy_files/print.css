@@ -1,0 +1,221 @@
+/* --------------------------------------
+             G E N E R A L
+-------------------------------------- */
+html,body {
+  height: auto;
+  font-size: 12pt;
+  }
+body,p,li,blockquote,td,th,h1,h2,h3,h4,h5,h6,input,textarea,select,option {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  }
+div#content h1 {
+  font-size: 240%;
+  color: #000;
+  border-bottom: 1px solid #000!important;
+  padding-bottom: 0!important;
+  line-height: 1;
+  margin-bottom: 20pt;
+  width: auto;
+  }
+div#content h2,div#content h3 {
+  font-size: 160%;
+  color: #000;
+  }
+h2 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+  }
+span.subhead {
+  font-size: 80%;
+  color: #000;
+  margin-top: 0;
+  margin-left: 0;
+  }
+a,a:visited {
+  color: #00f;
+  }
+noscript {
+  display: none;
+  }
+img {
+  width: auto;
+  }
+#logo img {
+  width: 170pt;
+  }
+#showHideAll {
+  display: none;
+  }
+.expand {
+  display: block!important;
+  }
+a, a:visited {
+  border-bottom: none!important;
+  }
+div.investors_page_summary, div.investors_page_summary p {
+  width: auto;
+  height: auto;
+  padding: 0;
+  }
+.more span {
+  display: none;
+  }
+div.date { 
+  font-size: 14pt;
+  padding-top: 2pt;
+  }
+div.event h4, div.expand {
+  padding-left: 44px;
+  }  
+.rss, .toolbar {
+  display: none!important;
+  }
+.clear {
+  display: none;
+  }        
+/* --------------------------------------
+          P A G E   L A Y O U T
+-------------------------------------- */
+body {
+  background: none;
+  }
+div#page {
+  width: 100%!important;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  border: none;
+  }
+div#page.onecol div#content {
+  width: 100%!important;
+  }
+/* Fix IE. Hide from IE Mac \*/
+* html div#page {width: 100%;}
+/* End */
+/* --------------------------------------
+              B A N N E R
+-------------------------------------- */
+div#banner {
+  padding: 0;
+  background: none;
+  }
+div#logo {
+  margin: -18px 0 10px -10px;
+  padding: 0;
+  background: none;
+  }
+div#contact {
+  display:none;
+  }
+div#search {
+  display:none;
+  }
+div#mainnav {
+  display:none;
+  }
+div#crumbtrail {
+  display:none;
+  }
+/* --------------------------------------
+            S U B   N A V
+-------------------------------------- */
+div#subnav {
+  display:none;
+  }
+/* --------------------------------------
+            C O N T E N T
+-------------------------------------- */
+div#content {
+  width: 100%;
+  padding: 0;
+  margin-left: 0;
+  }
+/* Fix IE - Hide from IE Mac \*/
+* html div#content_body div#content {width: 100%;}
+* html div#content_body_with_sidebar div#content {width: 100%;}
+* html div#content_region_landing div#content {width: 100%;}
+/* End */
+div#content #main ul {
+  list-style: disc;
+  padding-left: 30px;
+  }
+#main ul li {
+  padding-left: 0;
+  }
+#page #content #main, #page.twocol #content #main, #page.onecol #content #main {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  }
+#content a:link:after, #content a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+   }
+a:link, a:visited {
+  color: #520;
+  background: transparent;
+  font-weight: bold;
+  text-decoration: underline;
+  border: none;
+  }
+/* --------------------------------------
+            S I D E B A R
+-------------------------------------- */
+div#sidebar {
+  position: static;
+  float: none;
+  display: block;
+  width: 100%;
+  top: 0;
+  margin: 10px 0 0 0;
+  padding: 0;
+  clear: left;
+  border-top: 1px solid #000;
+  padding-top: 20pt;
+  }
+/* Fix IE - Hide from IE Mac \*/
+* html div#sidebar {width: 100%;}
+/* End */
+div#sidebar ul {
+  list-style: disc;
+  }
+#page #content div#sidebar div.border {
+  border: none;
+  }
+#page #content div#sidebar h4.related, #page #content div#sidebar h4.financial-info, #page #content div#sidebar h4.become-shareholder, #page #content div#sidebar h4.shareholder-services, #page #content div#sidebar h4.downloadable-pdfs, #page #content div#sidebar h4.job-search {
+  text-indent: .5em;
+  margin: 0;
+  font-size: 1.5em;
+  background: none;
+  }
+div#sidebar h4.title {
+  text-transform: none;
+  }
+div#sidebar h4.title,div#sidebar p,div#sidebar li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+  }
+/*Adobe icon*/
+div#sidebar .indent { 
+  display: none;
+  }
+h4.related {
+  display: none;
+  }  
+/* --------------------------------------
+             F O O T E R
+-------------------------------------- */
+div#footer {
+  width: 100%;
+  padding: 0;
+  margin: 20px 0 0 0;
+  height: auto;
+  }
+div#footer div.links {
+  display:none;
+  }
+div#sitemap {
+  display: none;
+  }
